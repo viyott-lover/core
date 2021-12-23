@@ -24,7 +24,7 @@ class RateDiscountPolicyTest {
     }
 
     @Test
-    @DisplayName("일반 유저는 할인 X")
+    @DisplayName("일반 유저 할인 X")
     public void vip_x() throws Exception {
         //given
         Member member = new Member(2L, "memberBASIC", Grade.BASIC);
