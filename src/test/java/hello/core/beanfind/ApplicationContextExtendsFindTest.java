@@ -19,7 +19,7 @@ public class ApplicationContextExtendsFindTest {
     @Test
     @DisplayName("부모 타입으로 조회 시 자식이 둘 이상이면 중복 오류 발생")
     void findBeanByParentTypeDuplicate() {
-        DiscountPolicy discountPolicy = ac.getBean(DiscountPolicy.class);
+//        DiscountPolicy discountPolicy = ac.getBean(DiscountPolicy.class);
     }
 
     @Test
